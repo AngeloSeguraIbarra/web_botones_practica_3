@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Evolution cars</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <h1>Evolucion de los coches</h1>
+    <h2>
+      Haz click en las imagenes para observar un modelo clásico y actual de cada
+      coche
+    </h2>
+    <div class="button-conteiner">
+      <!--Primer boton-->
+      <button
+        type="button"
+        onclick="toggleImage('imageButton1', 'https://img.remediosdigitales.com/43d4c2/03-singer-reimagined-porsche-911-1---otomobil-gnl/450_1000.jpg', 'https://www.mestmotor.se/app/uploads/sites/2/2023/02/1767286.jpg')"
+      >
+        <img
+          id="imageButton1"
+          src="https://img.remediosdigitales.com/43d4c2/03-singer-reimagined-porsche-911-1---otomobil-gnl/450_1000.jpg"
+          alt="Botón 1"
+        />
+      </button>
+
+      <button
+        type="button"
+        onclick="toggleImage('imageButton2', 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fb25beed-ac71-4492-ae55-a5ec271949e7/dgasjbm-c9cb2136-0328-4e07-a24e-130e9402815a.png/v1/fill/w_1280,h_715,q_80,strp/4k__69_camaro_by_refinedpermutations_dgasjbm-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzE1IiwicGF0aCI6IlwvZlwvZmIyNWJlZWQtYWM3MS00NDkyLWFlNTUtYTVlYzI3MTk0OWU3XC9kZ2FzamJtLWM5Y2IyMTM2LTAzMjgtNGUwNy1hMjRlLTEzMGU5NDAyODE1YS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.4FGPdT4fpQ8QLJoKYWb8ziuRQFwrQaNqH0K0hsMGxGM', 'https://i.pinimg.com/originals/d6/52/f4/d652f465d1293e95015a9f151191f9b9.png')"
+      >
+        <img
+          id="imageButton2"
+          src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fb25beed-ac71-4492-ae55-a5ec271949e7/dgasjbm-c9cb2136-0328-4e07-a24e-130e9402815a.png/v1/fill/w_1280,h_715,q_80,strp/4k__69_camaro_by_refinedpermutations_dgasjbm-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzE1IiwicGF0aCI6IlwvZlwvZmIyNWJlZWQtYWM3MS00NDkyLWFlNTUtYTVlYzI3MTk0OWU3XC9kZ2FzamJtLWM5Y2IyMTM2LTAzMjgtNGUwNy1hMjRlLTEzMGU5NDAyODE1YS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.4FGPdT4fpQ8QLJoKYWb8ziuRQFwrQaNqH0K0hsMGxGM"
+          alt="Botón 2"
+        />
+      </button>
+
+      <button
+        type="button"
+        onclick="toggleImage('imageButton3', 'https://i.pinimg.com/736x/3f/32/16/3f3216fa2cec442cd48870dcc62751a0.jpg', 'https://i.pinimg.com/originals/ce/46/68/ce466835e611847f0a64f14929a1645f.png')"
+      >
+        <img
+          id="imageButton3"
+          src="https://i.pinimg.com/736x/3f/32/16/3f3216fa2cec442cd48870dcc62751a0.jpg"
+          alt="Botón 3"
+        />
+      </button>
+
+      <button
+        type="button"
+        onclick="toggleImage('imageButton4', 'https://i.redd.it/mzwuva5xltr91.jpg', 'https://wallpapers.com/images/hd/dodge-challenger-4k-2560-x-1920-scmdz7fpkxc3hee3.jpg')"
+      >
+        <img
+          id="imageButton4"
+          src="https://i.redd.it/mzwuva5xltr91.jpg"
+          alt="Botón 4"
+        />
+      </button>
+
+      <button
+        type="button"
+        onclick="toggleImage('imageButton5', 'https://img.remediosdigitales.com/49792a/captura-de-pantalla-2019-01-16-a-la-s-9.39.43/1366_2000.png', 'https://i.ebayimg.com/images/g/hY0AAOSwhIRkOelh/s-l400.jpg')"
+      >
+        <img
+          id="imageButton5"
+          src="https://img.remediosdigitales.com/49792a/captura-de-pantalla-2019-01-16-a-la-s-9.39.43/1366_2000.png"
+          alt="Botón 5"
+        />
+      </button>
+    </div>
+
+    <script>
+      function toggleImage(buttonId, img1, img2) {
+        var img = document.getElementById(buttonId);
+        if (img.src.endsWith(img1)) {
+          img.src = img2;
+        } else {
+          img.src = img1;
+        }
+      }
+    </script>
+  </body>
+</html>

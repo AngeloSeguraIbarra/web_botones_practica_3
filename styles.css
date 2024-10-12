@@ -1,0 +1,36 @@
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-image: url("https://www.gogestor.com/blog/wp-content/uploads/2024/08/La-evolucion-del-diseno-automovilistico-de-los-coches-clasicos-a-los-modernos.png");
+}
+h1 {
+  text-align: center;
+  font-size: 3em;
+}
+h2 {
+  text-align: center;
+  font-size: 2em;
+}
+
+img {
+  margin-top: 20px;
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+button {
+  margin: 15px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+button img {
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
